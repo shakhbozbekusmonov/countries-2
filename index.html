@@ -13,7 +13,7 @@
 <body>
   
   <!-- HEADER START -->
-  <header class="py-6 shadow dark:bg-[#2B3844] transition-colors">
+  <header class="py-6 px-4 shadow dark:bg-[#2B3844] transition-colors">
     <div class="container mx-auto">
       <div class="flex items-center justify-between">
         <a class="text-2xl font-extrabold dark:text-white" href="./index.html">
@@ -29,6 +29,29 @@
     </div>
   </header>
   <!-- HEADER END -->
+
+  <!-- MAIN START -->
+  <main class="bg-[#fafafa] dark:bg-[#202C36] transition-colors px-4">
+    <!-- INTRO START -->
+    <section class="intro py-6 md:py-12">
+      <div class="container mx-auto">
+        <div class="flex items-center justify-between flex-wrap">
+          <input class="w-full max-w-[480px] py-4 px-6 shadow-sm rounded-md dark:bg-[#2B3844] dark:placeholder:text-white mb-10 md:mb-0" aria-label="Search for a country…" type="search" name="search" placeholder="Search for a country…">
+
+          <select class="bg-white text-[#111517] w-full max-w-[200px] py-4 ps-4 shadow-sm rounded-md dark:bg-[#2B3844] dark:text-white" name="region">
+            <option disabled selected hidden>Filter by Region</option>
+            <option value="Africa">Africa</option>
+            <option value="America">America</option>
+            <option value="Asia">Asia</option>
+            <option value="Europe">Europe</option>
+            <option value="Oceania">Oceania</option>
+          </select>
+        </div>
+      </div>
+    </section>
+    <!-- INTRO END -->
+  </main>
+  <!-- MAIN END -->
   
 
   <script src="./js/spaghetti.js"></script>
